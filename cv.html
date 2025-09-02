@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV Lintang Zahirah</title>
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+      padding: 30px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+
+    .profile-img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+      border: 3px solid #333;
+    }
+
+    .info h1 {
+      margin-bottom: 5px;
+      font-size: 28px;
+      color: #222;
+    }
+
+    .info p {
+      font-size: 16px;
+      color: #555;
+    }
+
+    .contact p {
+      font-size: 14px;
+      margin: 4px 0;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section h2 {
+      color: #1f1f1f;
+      border-bottom: 1px solid #999;
+      margin-bottom: 10px;
+    }
+
+    .section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .section li {
+      margin-bottom: 6px;
+    }
+
+    @media (max-width: 600px) {
+      .header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .profile-img {
+        margin-bottom: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container" data-aos="zoom-in">
+    <div class="header">
+      <img src="poto1.jpg" alt="Lintang Zahirah" class="profile-img" />
+      <!-- Ganti src dengan foto kamu -->
+      <div class="info">
+        <h1>Lintang Zahirah</h1>
+        <p>Pelajar Web Tech Developer</p>
+        <div class="contact">
+          <p><i class="fas fa-phone-alt"></i> 089654920270</p>
+          <p><i class="fas fa-envelope"></i> lintang.zahirah08@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Krendang Timur GG 4</p>
+          <p><i class="fab fa-linkedin"></i> lanyyz7tng</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" data-aos="fade-up">
+      <h2>Profil</h2>
+      <p>
+        Saya seorang pelajar web tech developer dari SMKS Pangeran Wijayakusuma,
+        jurusan Rekayasa Perangkat Lunak (RPL). Fokus belajar web tech
+        developer dengan HTML, CSS, JS, PHP, dan Java.
+      </p>
+    </div>
+
+    <div class="section" data-aos="fade-up">
+      <h2>Pendidikan</h2>
+      <ul>
+        <li>2014 - 2020 : SDN Duri Utara 06 pt</li>
+        <li>2020 - 2023 : SMPN 54 Jakarta</li>
+        <li>2023 - 2026 : SMKS Pangeran Wijayakusuma</li>
+      </ul>
+    </div>
+
+    <div class="section" data-aos="fade-up">
+      <h2>Pengalaman</h2>
+      <ul>
+        <li>2024 - 2025: PKL 6 bulan di Harco Mangga Dua Viva Comp</li>
+        <li>2023 - 2024: OSIS (TIK)</li>
+        <li>2023 - 2024: Pramuka</li>
+      </ul>
+    </div>
+
+    <div class="section" data-aos="fade-up">
+      <h2>Kemampuan</h2>
+      <ul>
+        <li>Desain Web UI/UX menggunakan Figma</li>
+        <li>Front End Coding</li>
+        <li>Mampu bekerja dalam tim ataupun individu</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+</body>
+</html>
